@@ -18,7 +18,7 @@
 
   <groupId>com.adobe.aio</groupId>
   <artifactId>aio-lib-java</artifactId>
-  <version>0.0.23-SNAPSHOT</version>
+  <version>0.0.45-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <modules>
@@ -89,6 +89,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+    <!--suppress UnresolvedMavenProperty -->
     <license.header.path>${maven.multiModuleProjectDirectory}/copyright_header.txt</license.header.path>
 
     <jacoco.version>0.8.3</jacoco.version> <!-- See https://github.com/jacoco/jacoco/issues/896#issuecomment-500944865 -->
@@ -99,7 +100,7 @@
     <wiremock.version>2.32.0</wiremock.version>
     <okhttp3.mockwebserver.version>4.9.1</okhttp3.mockwebserver.version>
     <mockito.version>4.4.0</mockito.version>
-    <slf4j.version>1.7.21</slf4j.version>
+    <slf4j.version>1.7.36</slf4j.version>
     <slf4j-api.version>[1.7.21,1.7.25]</slf4j-api.version>
     <jackson.version>2.12.3</jackson.version>
     <jjwt.version>0.11.2</jjwt.version>
